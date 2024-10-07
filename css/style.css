@@ -81,3 +81,34 @@ img {
 main img {
     max-width: 50%;
 }
+
+/* Estilo para os links das séries */
+a.serie-link:link, a.serie-link:visited {
+    color: rgb(22, 21, 21); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    border-bottom: 2px solid transparent; /* Sutil linha embaixo do link */
+    transition: border-bottom 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+a.serie-link:hover {
+    color: #ff6347; /* Cor quando o mouse passa por cima */
+    border-bottom: 2px solid #ff6347; /* Sublinhar com a cor ao passar o mouse */
+}
+
+a.serie-link:active {
+    color: #ff4500; /* Cor quando o link é clicado */
+}
+
+/* Estilo para os links do menu de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer; /* Adiciona o ponteiro de link ao passar o mouse */
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
